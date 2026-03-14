@@ -1,21 +1,42 @@
-# Human3D-FullLoop  
-> The first open-source full-loop framework for 3D human reconstruction  
-> 全球首个3D人体重建全链路闭环开源框架，集成论文预测、对抗测试、边缘蜜罐探测与模型自微调四大核心模块
+# Human3D-FullLoop 项目路线图
 
-⚠️ **LICENSE NOTICE**  
-This project is **free for non-commercial use only**.  
-**Any commercial usage requires explicit written authorization from the original author.**  
-© 2026 陈先生. All rights reserved.  
-📧 For commercial licensing: 534055736@qq.com
+本项目采用 **渐进式开源策略**，核心目标：  
+✅ 推动 3D 人体重建学术研究  
+⚠️ 严格限制非授权商业使用  
 
 ---
 
-## 🧩 Core Modules
+## 🟢 已开源模块（可自由使用，遵守 LICENSE）
 
-- **Sentinel (哨兵·预言者)**: 实时追踪 arXiv 最新 3D 人体重建论文，智能预测研究热点。
-- **Adversary (渗透·对抗者)**: 自动对公开 Demo 发起对抗攻击，评估模型鲁棒性。
-- **Honeypot (地图·诱饵者)**: 部署边缘 Wi-Fi 蜜罐，探测学术会议现场设备行为（仅限授权环境）。
-- **Defense (认知免疫反哺)**: 基于漏洞报告自动生成对抗样本，触发模型在线微调。
+- **哨兵·预言者 (`sentinel/`)**
+  - 实时追踪 arXiv 论文
+  - 关键词驱动热点预测
+  - 输出优先级论文列表
 
-> 💡 本项目代码为开源协作版本，**不含预训练权重与私有密钥**。  
-> 商用合作请联系作者。
+---
+
+## 🟡 计划开源模块（需安全审查后发布）
+
+- **渗透·对抗者 (`penetration/`)**
+  - 模拟对抗攻击（FGSM, PGD）
+  - 仅支持本地模型测试
+  - ❌ 不包含对第三方服务的真实攻击逻辑
+
+- **认知免疫反哺 (`defense/`)**
+  - 基于漏洞报告生成对抗样本
+  - 触发模型在线微调（LoRA）
+  - 依赖本地训练环境
+
+---
+
+## 🔴 永不公开模块（仅作者私有部署）
+
+- **地图·蜜罐 (`honeypot/`)**
+  - 边缘 Wi-Fi 蜜罐探测
+  - 学术会议现场行为分析
+  - ⚠️ 因涉及网络合规风险，**代码不公开**
+
+---
+
+> 💡 所有开源代码均不含预训练权重、API 密钥或商业逻辑。  
+> 商业合作请联系：534055736@qq.com
