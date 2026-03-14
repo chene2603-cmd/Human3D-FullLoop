@@ -68,3 +68,10 @@ python run_sentinel.py
 # 3. 查看各模块文档
 cat sentinel/README.md
 cat penetration/README.md
+⚖️ 许可与限制
+
+非商业研究许可：详见 LICENSE
+
+禁止商业使用：包括但不限于 SaaS、API 服务、产品集成
+
+安全合规：详见 SECURITY.md
