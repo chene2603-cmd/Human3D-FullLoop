@@ -75,3 +75,4 @@ cat penetration/README.md
 禁止商业使用：包括但不限于 SaaS、API 服务、产品集成
 
 安全合规：详见 SECURITY.md
+> 🔬 学术研究原型 · 非商业使用 · 活跃开发中
