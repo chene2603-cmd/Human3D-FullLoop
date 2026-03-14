@@ -40,3 +40,31 @@
 
 > 💡 所有开源代码均不含预训练权重、API 密钥或商业逻辑。  
 > 商业合作请联系：534055736@qq.com
+---
+
+## 🧩 项目架构
+
+Human3D-FullLoop 采用 **闭环对抗学习架构**，包含四大核心模块：
+
+| 模块 | 路径 | 功能 | 状态 |
+|------|------|------|------|
+| **哨兵·预言者** | `sentinel/` | 监控 arXiv，预测 3D 人体研究热点 | ✅ 开源 |
+| **渗透·对抗者** | `penetration/` | 生成对抗样本，测试本地模型鲁棒性 | ✅ 开源 |
+| **防御·免疫反哺** | `defense/` | 基于对抗样本触发模型微调 | ✅ 开源（骨架）|
+| **地图·蜜罐** | `honeypot/` | 学术会议现场行为诱捕分析 | 🔒 私有 |
+
+> 💡 所有开源模块均 **不含预训练权重、API 密钥或网络攻击逻辑**。
+
+## ▶️ 快速开始
+
+```bash
+# 1. 克隆仓库
+git clone https://github.com/yourname/Human3D-FullLoop.git
+cd Human3D-FullLoop
+
+# 2. 运行哨兵演示
+python run_sentinel.py
+
+# 3. 查看各模块文档
+cat sentinel/README.md
+cat penetration/README.md
