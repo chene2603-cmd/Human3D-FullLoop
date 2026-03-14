@@ -1,12 +1,19 @@
-# Human3D-FullLoop  
-> The first open-source full-loop framework for 3D human reconstruction  
-> 全球首个3D人体重建全链路闭环开源框架，集成论文预测、对抗测试、边缘蜜罐探测与模型自微调四大核心模块
+Human3D-FullLoop - Non-Commercial Open Source License
 
-⚠️ **LICENSE NOTICE**  
-This project is **free for non-commercial use only**.  
-**Any commercial usage requires explicit written authorization from the original author.**  
-© 2026 陈先生. All rights reserved.  
-📧 For commercial licensing: 534055736@qq.com
+Copyright (c) 2026 陈先生
 
----
-[在此处继续写你的功能介绍、安装指南、示例等...]
+You are free to:
+- Use, copy, and modify the code for personal, academic, or non-commercial research purposes.
+- Share and distribute modified versions under the same license terms.
+
+You must:
+- Include this copyright notice in all copies or substantial portions of the software.
+
+You may NOT:
+- Use any part of this project for commercial purposes (including but not limited to: 
+  selling services, integrating into paid products, internal use by for-profit organizations)
+  without prior written permission from the copyright holder.
+
+For commercial licensing inquiries, please contact: 534055736@qq.com
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
