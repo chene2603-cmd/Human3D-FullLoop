@@ -1,0 +1,10 @@
+# Human3D 哨兵关键词列表（非商业研究用途）
+# 每行一个搜索词，支持 arXiv 高级语法（如 ti:"3D human"）
+3D human reconstruction
+neural radiance fields human
+SMPL-X
+Gaussian Avatars
+animatable avatars
+dynamic cloth simulation
+pose estimation
+neural rendering human
