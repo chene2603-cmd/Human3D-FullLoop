@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use Human3D-FullLoop in your research, please cite it as below."
+authors:
+  - family-names: "YourLastName"        # ← 请替换为你的姓氏（或笔名）
+    given-names: "YourFirstName"        # ← 请替换为你的名字（或留空）
+    name-particle: ""                 # 可选
+    name-suffix: ""                   # 可选
+    orcid: ""                         # 可选，如你有 ORCID
+    affiliation: "Independent Researcher"
+title: "Human3D-FullLoop: A Closed-Loop Adversarial Learning Framework for 3D Human Reconstruction Research"
+version: "1.0.0"
+date-released: 2025-04-01             # ← 请替换为实际首次开源日期
+license: "CC BY-NC-SA 4.0"           # 非商业署名-相同方式共享（与你声明一致）
+repository-code: "https://github.com/yourname/Human3D-FullLoop"
+url: "https://github.com/yourname/Human3D-FullLoop"
+keywords:
+  - "3D human reconstruction"
+  - "adversarial machine learning"
+  - "FGSM"
+  - "PGD"
+  - "LoRA fine-tuning"
+  - "arXiv monitoring"
+  - "academic security"
+  - "non-commercial research"
+abstract: >
+  Human3D-FullLoop is an open-source research framework that implements a closed-loop
+  adversarial learning pipeline for 3D human reconstruction systems. It integrates four
+  core modules: (1) Sentinel Prophet for arXiv-based research trend prediction,
+  (2) Penetration Adversary for local-model robustness testing via FGSM/PGD attacks,
+  (3) Defense Immune Feedback for automatic LoRA-based model retraining triggered by vulnerabilities,
+  and (4) a private honeypot system for physical-world threat analysis (not open-sourced).
+  The project is strictly licensed for non-commercial academic use only.
+contact:
+  email: "534055736@qq.com"
+type: software
